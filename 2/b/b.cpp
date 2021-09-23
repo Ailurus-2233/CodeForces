@@ -15,7 +15,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-        int dp[2][MAX + 5][MAX + 5];
+    int dp[2][MAX + 5][MAX + 5];
     bool zero_flag = false;
     int zero_x = 1, zero_y = 1, n, a;
     memset(dp, 63, sizeof(dp));
