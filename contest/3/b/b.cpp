@@ -1,3 +1,8 @@
+/* Problem: 3B Lorry
+ * Author: ailurus2233
+ * Time: 2021-09-18 15:44:47
+**/
+
 #include <bits/stdc++.h>
 
 #define MAX 100010

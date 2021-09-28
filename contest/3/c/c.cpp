@@ -1,4 +1,4 @@
-/* Problem: 
+/* Problem: 3C Tic-tac-toe
  * Author: ailurus2233
  * Time: 2021-09-18 15:44:47
 **/

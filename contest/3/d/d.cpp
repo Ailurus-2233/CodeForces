@@ -1,4 +1,4 @@
-/* Problem: 
+/* Problem: 3D Least Cost Bracket Sequence
  * Author: ailurus2233
  * Time: 2021-09-18 15:44:47
 **/
