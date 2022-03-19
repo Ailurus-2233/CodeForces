@@ -8,8 +8,8 @@ import java.util.StringTokenizer;
  **/
 
 public class Templete {
-    public static void main(String[] args) {
-        FastScanner fr = new FastScanner();
+    public static void main(String[] args) throws IOException {
+        FastScanner fr = new FastScanner(System.in);
         // Code Block
 
         // please AC!
@@ -19,10 +19,12 @@ public class Templete {
         BufferedReader br;
         StringTokenizer st;
 
-        public FastScanner()
-        {
-            br = new BufferedReader(
-                    new InputStreamReader(System.in));
+        public FastScanner(InputStream s) {
+            br = new BufferedReader(new InputStreamReader(s));
+        }
+ 
+        public FastScanner(FileReader r) {
+            br = new BufferedReader(r);
         }
 
         String next() throws IOException {

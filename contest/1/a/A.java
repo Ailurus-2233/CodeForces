@@ -11,8 +11,8 @@ public class A {
     public static void main(String[] args) throws Exception {
         FastScanner fr = new FastScanner();
         // Code Block
-        long m = fr.nextLong(), n = fr.nextLong(), a = fr.nextLong();
-        System.out.println((long) (Math.ceil(((double) m) / a) * Math.ceil(((double) n )/ a)));
+        int m = fr.nextInt(), n = fr.nextInt(), a = fr.nextInt();
+        System.out.println((long) (Math.ceil(1.0d * m / a) * Math.ceil(1.0d * n / a)));
         // please AC!
     }
 
@@ -20,8 +20,7 @@ public class A {
         BufferedReader br;
         StringTokenizer st;
 
-        public FastScanner()
-        {
+        public FastScanner() {
             br = new BufferedReader(
                     new InputStreamReader(System.in));
         }
